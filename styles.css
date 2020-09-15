@@ -1,0 +1,75 @@
+body {
+    font-family: 'Century';
+    color: #5D6063;
+    /* Gray */
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+
+.menu li a:hover {
+    background-color: #111;
+}
+
+img {
+    /* svg on an img tag */
+    -webkit-filter: invert(1);
+    /* safari 6.0 - 9.0 */
+    filter: invert(1);
+}
+
+hr {
+    width: 0%;
+    min-width: 20%;
+    max-width: 100%;
+    margin: 0 auto;
+    border: none;
+    border-bottom: 1px solid #666;
+    position: relative;
+    transition: box-shadow 200ms ease-in-out;
+    box-shadow: 0px 0px 0px 0px #f9f9f9;
+}
+
+h1 {
+    text-align: center;
+}
+
+.links a {
+    text-decoration: none;
+    margin-left: 5px;
+    color: #000000;
+}
+
+.links a:visited {
+    color: #000000;
+}
+
+.links p {
+    margin: 0;
+    padding: 0;
+    text-indent: 25px;
+}
+
+.links h2 {
+    margin: 0;
+    padding: 0;
+}
