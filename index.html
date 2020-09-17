@@ -1,63 +1,81 @@
 <!DOCTYPE html>
-<html>
+<html lang='en'>
 
 <head>
     <meta charset='UTF-8' />
-    <title>Braydon's Portfolio</title>
-    <link rel='stylesheet' href='styles.css' />
-    <style>
-
-    </style>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+    <title>Braydon Hunt Portfolio</title>
+    <link rel='stylesheet' href='new-styles.css' />
 </head>
 
 <body>
-    <ul class="menu">
-        <li><img src="images/logo.png" height="46px" width="31.25px" /></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
-
-    <h1>Braydon Hunt Portfolio</h1>
-    <hr />
-    <h2 id="about">About Me</h2>
-    <p>My name is Braydon Hunt and I am a junior in the CS program at BYU.</p>
-    <p>This is a little about my programming experience.</p>
-
-
-    <h2 id="projects">Projects</h2>
-    <ol>
-        <li>Automated Christmas lights display with SMS control using Google Voice API- built with Raspberry Pi</li>
-        <li><em>Stranger Things</em> Halloween addressable lights scene with Twilio integration and threading for
-            responsive input from SMS commands</li>
-        <li>Programmed Microchip PIC in C to create a robot with 3 motors, 8 inputs, and 4 outputs</li>
-    </ol>
-    <h2 id="experience">Experience</h2>
-    <ol>
-        <li>Software Engineering Intern - Intermountain Precision Casting</li>
-        <ol>
-            <li>Increased robot uptime by 40% through better error handling and automated methods for fixing
-                robot and subsystem issues</li>
-            <li>Used .NET with Visual Basic to add 11 features to GUI for handling robot scheduling and inputs</li>
-            <li>Used Python Django to create cross-platform method for 10 users to access the robot SQL database</li>
-        </ol>
-        <li>IoT Software Engineering Intern - Benchmarks Electronics Inc</li>
-        <ol>
-            <li>Created internal invoicing and project tracking web app for team of 20 and over 12 project</li>
-            <li>Created cross-platform mobile app in React Native for interfacing with custom Bluetooth devices</li>
-            <li>Experience with programming as a team including using git, agile, and code reviews</li>
-        </ol>
-    </ol>
-
-</body>
-<footer>
-    <div class="links">
-        <h2 id="contact">Contact</h2>
-        <p>Visit my<a href="https://github.com/TheMadras">GitHub</a></p>
-        <p>Check me out on<a href="https://www.linkedin.com/in/braydonwhunt/">LinkedIn</a></p>
+    <div class='page'>
+        <div class='section menu'>
+            <ul class="menu">
+                <li><img src="images/logo.png" height="74px" width="50.25px" /></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class='section header'>
+            <h1>Braydon Hunt Portfolio</h1>
+            <hr />
+            <br />
+            <p>My name is Braydon Hunt and I am a junior in the CS program at BYU.</p>
+        </div>
+        <div id="about" class='section content'>
+            <h2 id="about">About Me</h2>
+            <hr />
+            <br />
+            <p>My name is Braydon Hunt and I am a junior in the CS program at BYU.</p>
+            <p>This is a little about my programming experience.</p>
+        </div>
+        <div id="projects" class='section projects'>
+            <h2 id="projects">Projects</h2>
+            <hr />
+            <br />
+            <ul class="main-bullet">
+                <li>Automated Christmas lights display with SMS control using Google Voice API- built with Raspberry Pi
+                </li>
+                <li><em>Stranger Things</em> Halloween addressable lights scene with Twilio integration and threading
+                    for
+                    responsive input from SMS commands</li>
+                <li>Programmed Microchip PIC in C to create a robot with 3 motors, 8 inputs, and 4 outputs</li>
+            </ul>
+        </div>
+        <div id="experience" class='section experience'>
+            <h2>Experience</h2>
+            <hr />
+            <br />
+            <ul class="main-bullet">
+                <li><strong>Software Engineering Intern - Intermountain Precision Casting</strong></li>
+                <ul class="sub-bullet">
+                    <li>Increased robot uptime by 40% through better error handling and automated methods for fixing
+                        robot and subsystem issues</li>
+                    <li>Used .NET with Visual Basic to add 11 features to GUI for handling robot scheduling and inputs
+                    </li>
+                    <li>Used Python Django to create cross-platform method for 10 users to access the robot SQL database
+                    </li>
+                </ul>
+                <li><strong>IoT Software Engineering Intern - Benchmarks Electronics Inc</strong></li>
+                <ul class="sub-bullet">
+                    <li>Created internal invoicing and project tracking web app for team of 20 and over 12 project</li>
+                    <li>Created cross-platform mobile app in React Native for interfacing with custom Bluetooth devices
+                    </li>
+                    <li>Experience with programming as a team including using git, agile, and code reviews</li>
+                </ul>
+            </ul>
+        </div>
+        <div id="contact" class='section contact'>
+            <h2>Contact</h2>
+            <hr />
+            <br />
+            <p>Visit my <a href="https://github.com/TheMadras">GitHub</a></p>
+            <p>Check me out on <a href="https://www.linkedin.com/in/braydonwhunt/">LinkedIn</a></p>
+        </div>
     </div>
-
-</footer>
+</body>
 
 </html>
